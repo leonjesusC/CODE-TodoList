@@ -1,13 +1,56 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body {
+    background-color: rgb(246, 246,246);
+}
 
-    You can write your own styles here...
+h1 {
+    color: rgb(227,221,221);
+    font-size: 70px;
+    font-weight: lighter;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+button {
+    display: flex;
+    border-width: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(227,221,221);
+    font-weight: bold;
+    opacity: 0;
+}
+
+button:hover {
+    display: flex;
+    border-width: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(227,221,221);
+    font-weight: bold;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+
+li {
+    color: rgb(227, 221, 221);
+}
+
+
+p {
+    opacity: 1 !important;
+}
+
+
+.taskCountText {
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(175, 156, 156)
+}
+
+.listText {
+    padding: 0px;
+    margin: 0px;
+    color: rgb(175, 156, 156)
+}
+
